@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+     "tsc": "tsc && typedoc --out ./typedocreport",
     "clean": "rimraf javaScript/",
     "clean-build": "npm run clean && npm run build",
     "test": "protractor JavaScript/config/config.js",
